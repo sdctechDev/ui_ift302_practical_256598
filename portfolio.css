@@ -14,11 +14,11 @@ h3 {
     color: #ffffff;
     font-size: 50px;
     font-family: "Audiowide", sans-serif;
-    margin-right: auto; /* Pushes the title to the left */
+    margin-right: auto; 
     padding-bottom: 0;
 }
 .navbar {
-    background-color:#04101d; /* Dark night sky theme */
+    background-color:#04101d; 
     padding: 1rem 2rem;
     position: sticky;
     top: 0;
