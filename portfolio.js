@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     document.body.classList.add("js-loaded");
 
-    /*SPACE PARTICLES*/
+    //The partcicles lol
 
     const starContainer = document.createElement("div");
     starContainer.className = "space-particles";
@@ -20,14 +20,12 @@ document.addEventListener("DOMContentLoaded", () => {
         starContainer.appendChild(star);
     }
 
-    /*HERO TITLE ANIMATION*/
 
     const heroTitle = document.querySelector(".article-intro h1");
     if (heroTitle) {
         heroTitle.classList.add("hero-animate");
     }
 
-    /*SCROLL REVEAL*/
 
     const revealElements = document.querySelectorAll(
         ".story-section, .article-statement, .pull-quote, .article-ending"
@@ -50,7 +48,6 @@ document.addEventListener("DOMContentLoaded", () => {
         revealObserver.observe(element);
     });
 
-    /*SECTION HEADING ANIMATION*/
 
     const headings = document.querySelectorAll(
         ".section-content h2, .article-statement h2, .article-ending h2"
@@ -73,7 +70,6 @@ document.addEventListener("DOMContentLoaded", () => {
         headingObserver.observe(heading);
     });
 
-    /*PULSING SECTION NUMBERS*/
 
     const numbers = document.querySelectorAll(".section-number");
 
